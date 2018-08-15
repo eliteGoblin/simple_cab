@@ -6,7 +6,6 @@ simple cab trip counter
 
 ```shell
 curl -XPOST localhost:8080/v1/trip_info/2013-12-01/count -d@query.json -vvv
-# query directly to DB still have bugs, will fix it ASAP 
 curl -XPOST localhost:8080/v1/trip_info/2013-12-01/count -d@query_nocache.json -vvv
 curl -XPOST localhost:8080/v1/trip_info/2013-12-06/count -d@query2.json -vvv
 curl -XPOST localhost:8080/v1/trip_info/2013-12-31/count -d@query2.json -vvv
