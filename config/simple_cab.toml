@@ -1,0 +1,18 @@
+
+# Simple cab config
+
+[mysql]
+host = "localhost"
+port = 3306
+user = "root"
+password = "root"
+max_idle_conns = 10
+max_open_conns = 30
+db_name = "ny_cab"
+enable_log = true
+
+
+[simple_cab]
+host = "localhost"
+port = 8080
+max_count_per_request = 1000  # max medallion count in one request
